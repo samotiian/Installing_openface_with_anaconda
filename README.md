@@ -3,7 +3,7 @@ Installing open face using Anaconda:
 Step 1: The first step is the installation of dlib using one of the following methods:
   1. Install dlib library using https://github.com/menpo/conda-dlib
   2. Alternatively the following link can be used: https://anaconda.org/menpo/dlib
-  * The 
+    * The later approach provide the user with a command excecutable in the terminal.
 
 
 If you complete all steps, dlib will be installed in _test environment.
