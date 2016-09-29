@@ -16,7 +16,8 @@ Step 3: Install opencv, numpy, pandas, scipy, scikit-learn, and scikit-image pac
 
 $ which python ~/anaconda/envs/_test/bin/python)
 
-Step 4: After installing all packages you should deactivate _test environment using this command: source deactivate _test
+Step 4: After installing all packages you should deactivate _test environment using this command: 
+source deactivate _test
 
 Step 5: Install torch using:
 
