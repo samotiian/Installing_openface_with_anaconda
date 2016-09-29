@@ -6,7 +6,8 @@ Step 1: The first step is the installation of dlib using one of the following me
     * The later approach provide the user with a command excecutable in the terminal.
 
 
-If you complete all steps, dlib will be installed in _test environment.
+If you complete all steps, dlib will be installed in _test environment by using the first approach.
+By using the second approach the dlib can be installed in arbitrary virtual environment.
 
 Step 2: Activate _test environment using this command:
 
