@@ -1,10 +1,13 @@
 Installing open face using Anaconda:
 
-Step 1: Install dlib library using
+Step 1: The first step is the installation of dlib using one of the following methods:
+  1. Install dlib library using https://github.com/menpo/conda-dlib
+  2. Alternatively the following link can be used: https://anaconda.org/menpo/dlib
+    * The later approach provide the user with a command excecutable in the terminal.
 
-https://github.com/menpo/conda-dlib
 
-If you complete all steps, dlib will be installed in _test environment.
+If you complete all steps, dlib will be installed in _test environment by using the first approach.
+By using the second approach the dlib can be installed in arbitrary virtual environment.
 
 Step 2: Activate _test environment using this command:
 
@@ -16,7 +19,8 @@ Step 3: Install opencv, numpy, pandas, scipy, scikit-learn, and scikit-image pac
 
 $ which python ~/anaconda/envs/_test/bin/python)
 
-Step 4: After installing all packages you should deactivate _test environment using this command: source deactivate _test
+Step 4: After installing all packages you should deactivate _test environment using this command: <br />
+source deactivate _test
 
 Step 5: Install torch using:
 
