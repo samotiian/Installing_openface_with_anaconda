@@ -32,7 +32,11 @@ $ for NAME in dpnn nn optim optnet csvigo cutorch cunn fblualib torchx tds; do l
 
 Step 6: Install open face in _test environment using following commands:
 
-$ source activate _test $ git clone https://github.com/cmusatyalab/openface.git ~/openface $ cd openface $ cd sudo python setup.py install $ models/get-models.sh
+$ source activate _test $ git clone https://github.com/cmusatyalab/openface.git ~/openface 
+
+$ cd openface 
+
+$sudo python setup.py install $ models/get-models.sh
 
 Open face is installed in your machine. You can test it using:
 
