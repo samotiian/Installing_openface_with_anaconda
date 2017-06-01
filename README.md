@@ -1,6 +1,6 @@
-Installing open face using Anaconda:
+# Installing open face using Anaconda:
 
-Step 1. Install `miniconda` with:
+Step 1. Install `miniconda` with the following commands
 * `wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh`
 * `bash Miniconda3-latest-Linux-x86_64.sh` and follow instructions.
 * Add a Python 2.7 environment with: `conda create --name openface python=2.7`
@@ -18,16 +18,18 @@ Step 3. Install Torch
 Step 4. Install Torch dependencies
 * Execute: `for NAME in dpnn nn optim optnet csvigo cutorch cunn fblualib torchx tds; do luarocks install $NAME; done`
 
-Step 6: Install open face in `openface` environment using following commands:
+Step 5. Install open face in `openface` environment using following commands:
 * `source activate openface`
 * `git clone https://github.com/cmusatyalab/openface.git ~/openface` 
 * `cd openface` 
 * `python setup.py install`
-* `./models/get-models.sh
+* Download `dlib`s models with: `./models/get-models.sh`
 
-Open face is now installed. Test it with:
+Open face is now installed. Test it with
 * `./demos/classifier.py infer models/openface/celeb-classifier.nn4.small2.v1.pkl ./images/examples/carell.jpg`
 
 The output should be:
 
+```
 === ./images/examples/carell.jpg === Predict SteveCarell with 0.97 confidence.
+```
